@@ -130,6 +130,7 @@ ps ：需要本地有java8执行环境。
     "chargeDay": 8,
     "devicePlatform": "ios",
     "coinAddPriority": 1,
+    "silver2coinFlag": true,
     "userAgent": "你的默认UA"
   },
   "pushConfig": {
@@ -179,6 +180,7 @@ ps ：需要本地有java8执行环境。
    | chargeDay            | [1，28]              | 默认为每月28号                                                         |
    | devicePlatform       | [ios,android]        | 手机端漫画签到时的平台，建议选择你设备的平台 ，默认 `ios`              |
    | coinAddPriority      | [0,1]                | 0：优先给热榜视频投币，1：优先给关注的 up 投币                         |
+   | silver2coinFlag      | [false,true]         | 是否自动使用银瓜子兑换硬币，默认 `true`。                     |
    | userAgent            | 浏览器 UA            | 你的浏览器Ua                                                           |
    | skipDailyTask        | [false,true]         | 是否跳过每日任务，默认`true`,如果关闭跳过每日任务，请改为`false`       |
 
