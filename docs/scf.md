@@ -79,6 +79,7 @@
     "chargeDay": 8,
     "devicePlatform": "ios",
     "coinAddPriority": 1,
+    "silver2coinFlag": true,
     "userAgent": "你的默认UA"
   },
   "pushConfig": {
@@ -152,6 +153,7 @@
 			"chargeDay": 8,
 			"devicePlatform": "ios",
 			"coinAddPriority": 1,
+			"silver2coinFlag": true,
 			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.38"
 		},
 		"pushConfig": {
