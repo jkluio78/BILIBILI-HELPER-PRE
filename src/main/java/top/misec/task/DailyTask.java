@@ -24,12 +24,12 @@ public class DailyTask {
 
     private final List<Task> dailyTasks;
 
-    public DailyTask(boolean Silver2coinflag=true) {
+    public DailyTask(boolean silver2coinFlag=true) {
         dailyTasks = new ArrayList<>();
         dailyTasks.add(new VideoWatch());
         dailyTasks.add(new MangaSign());
         dailyTasks.add(new CoinAdd());
-        if(Silver2coinflag){dailyTasks.add(new Silver2coin());}
+        if(silver2coinFlag){dailyTasks.add(new Silver2coin());}
         dailyTasks.add(new LiveChecking());
         dailyTasks.add(new GiveGift());
         dailyTasks.add(new ChargeMe());
