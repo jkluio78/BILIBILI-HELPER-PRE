@@ -36,7 +36,11 @@ public class BiliMainTest {
         //每日任务65经验
 
         if (!Boolean.TRUE.equals(ConfigLoader.helperConfig.getTaskConfig().getSkipDailyTask())) {
-            DailyTask dailyTask = new DailyTask();
+            if (!Boolean.TRUE.equals(ConfigLoader.helperConfig.getTaskConfig().getSilver2coinFlag())) {
+                DailyTask dailyTask = new DailyTask(false);
+            }else{
+                DailyTask dailyTask = new DailyTask();
+            }
             dailyTask.doDailyTask();
         } else {
             log.info("已开启了跳过本日任务，（不会发起任何网络请求），如果需要取消跳过，请将skipDailyTask值改为false");
